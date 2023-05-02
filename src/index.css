@@ -4,8 +4,21 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgb(24, 30, 49);
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #FF4820;
+    border-radius: 5px;
 }
 
 body {
     overflow-x: hidden;
+    background-color: #040C18;
 }
