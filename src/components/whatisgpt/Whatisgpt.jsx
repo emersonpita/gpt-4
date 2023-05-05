@@ -1,4 +1,3 @@
-import React from 'react';
 import './whatisgpt.css';
 
 const Whatisgpt = () => {
@@ -15,9 +14,9 @@ const Whatisgpt = () => {
 
         <div className="bigcard">
 
-          <div className="container1">
+          <div className="container1-whatisgpt">
 
-            <div className="title1">
+            <div className="title1-whatisgpt">
 
               <span></span>
 
@@ -35,7 +34,11 @@ const Whatisgpt = () => {
 
           <div className="container2">
 
+            <div className="left2">
+
             <h3>The possibilities are beyond your imagination.</h3>
+
+            </div>
 
             <a href="#">Explore the Library</a>
 

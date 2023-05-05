@@ -1,4 +1,3 @@
-import React from 'react';
 import './blog.css';
 
 const Blog = () => {
@@ -11,7 +10,7 @@ const Blog = () => {
 
         <div className="blogs">
 
-          <div className="left">
+          <div className="left3">
 
             <img src="./img/Post1.png" alt="Post 1 Blog" />
 
@@ -23,7 +22,7 @@ const Blog = () => {
 
           </div>
 
-          <div className="middle">
+          <div className="middle3">
 
             <div className="post">
 
@@ -51,7 +50,7 @@ const Blog = () => {
 
           </div>
 
-          <div className="right">
+          <div className="right3">
 
             <div className="post">
 
@@ -83,7 +82,7 @@ const Blog = () => {
 
         <div className="finaltitle">
 
-          <h2>Do you want to step into the future before others?</h2>
+          <h3>Do you want to step into the future before others?</h3>
 
           <a href="#">Request Early Access</a>
 

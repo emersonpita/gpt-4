@@ -1,4 +1,3 @@
-import React from 'react';
 import './footer.css';
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
 
         <div className="footer1">
 
-          <div className="logo">
+          <div className="logo-footer">
 
             <a href="#">GPT-4</a>
 
@@ -17,7 +16,7 @@ const Footer = () => {
 
           </div>
 
-          <div className="menu">
+          <div className="menu-footer">
 
             <h4>Links</h4>
 
@@ -35,7 +34,7 @@ const Footer = () => {
 
           </div>
 
-          <div className="menu">
+          <div className="menu-footer">
 
             <h4>Company</h4>
 
@@ -51,7 +50,7 @@ const Footer = () => {
 
           </div>
 
-          <div className="menu">
+          <div className="menu-footer">
 
             <h4>Get in Touch</h4>
 
@@ -71,9 +70,7 @@ const Footer = () => {
 
         <div className="footer2">
 
-          <p>Desenvolvimento: Emerson Pita</p>
-
-          <p>Copyright © 2023 | All rights reserved.</p>
+          <p>Development: Emerson Pita | All rights reserved.</p>
 
         </div>
 

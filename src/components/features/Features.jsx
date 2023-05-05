@@ -1,4 +1,3 @@
-import React from 'react';
 import './features.css';
 
 const Features = () => {
@@ -105,7 +104,7 @@ const Features = () => {
 
           <div className="texts-container2">
 
-            <h6>Request Early Access to Get Started</h6>
+            <h6>OpenAI's Most Advanced System</h6>
 
             <h3> The possibilities are beyond your imagination.</h3>
 
@@ -117,7 +116,7 @@ const Features = () => {
           
         </div>
 
-        <div className="container3">
+        <div className="container3-2">
 
           <div className="left">
 

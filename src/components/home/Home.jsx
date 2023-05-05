@@ -1,9 +1,18 @@
-import React from 'react';
 import './home.css';
 
 const Home = () => {
   return (
     <div id="home">
+
+      <div className="circulo1"></div>
+
+      <div className="circulo2"></div>
+
+      <div className="circulo3"></div>
+
+      <div className="circulo4"></div>
+
+      <div className="circulo5"></div>
 
       <div className="home-container">
 

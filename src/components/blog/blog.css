@@ -1,0 +1,112 @@
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    width: 1560px;
+    max-width: 90%;
+}
+
+.blog-container h2 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-right: 800px;
+    background-image: linear-gradient(45deg, rgb(174, 103, 250), rgb(244, 152, 103));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.left3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #042C54;
+    position: relative;
+    width: 30%;
+}
+
+.blogs h6 {
+    font-size: 11px;
+    font-weight: 300;
+    margin-top: 10px;
+    padding: 5px 20px 0 20px;
+}
+
+.blogs h3 {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-top: 5px;
+}
+
+.blogs a {
+    text-decoration: none;
+    padding: 0 20px;
+    position: absolute;
+    bottom: 15px;
+    transition: 0.3s;
+    color: #FF8A71;
+}
+
+.blogs a:hover {
+    transform: scale(1.075);
+}
+
+.middle3, .right3 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 30%;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    background-color: #042C54;
+    position: relative;
+    height: 350px;
+}
+
+.finaltitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 150px 0;
+}
+
+.finaltitle h3 {
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0 350px;
+    background-image: linear-gradient(45deg, rgb(174, 103, 250), rgb(244, 152, 103));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.finaltitle a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid white;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.finaltitle a:hover {
+    color: black;
+    background-color: white;
+}
