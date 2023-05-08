@@ -138,3 +138,20 @@
     }
 
 }
+
+@media (max-width: 650px) {
+
+    .blogs {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .left3, .middle3, .right3 {
+        width: 100%;
+    }
+
+    .left3 {
+        height: 460px;
+    }
+
+}
