@@ -110,3 +110,27 @@
     color: black;
     background-color: white;
 }
+
+@media (max-width: 1560px) {
+    
+    .blog-container h2 {
+        padding-right: 400px;
+    }
+
+    .finaltitle h3 {
+        padding: 0 150px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .blog-container h2 {
+        padding: 0;
+    }
+
+    .finaltitle h3 {
+        padding: 0;
+    }
+
+}

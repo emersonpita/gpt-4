@@ -122,3 +122,56 @@
     font-weight: 300;
     margin-top: 50px;
 }
+
+@media (max-width: 1560px) {
+
+    .left2 {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    #whatisgpt {
+        padding-top: 0;
+    }
+
+    .companies {
+        display: none;
+    }
+
+    .bigcard {
+        padding: 50px 30px;
+        gap: 50px;
+    }
+
+    .container1-whatisgpt, .container2, .container3 {
+        flex-direction: column;
+    }
+
+    .title1-whatisgpt, .description1, .left2, .sub-container {
+        width: 100%;
+    }
+
+    .container2 {
+        padding: 0;
+        margin: 0 !important;
+        align-items: start !important;
+        text-align: start;
+    }
+
+    .container2 a {
+        padding-top: 15px;
+    }
+
+    .container3 {
+        padding-top: 0;
+        gap: 50px;
+    }
+
+    .sub-container p {
+        margin-top: 0;
+    }
+
+}
