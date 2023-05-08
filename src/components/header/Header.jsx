@@ -1,91 +1,97 @@
+import React, { useRef, useEffect } from 'react';
 import './header.css';
 
-const checkbox = document.querySelector("#hamburguer-menu");
-const navLinks = document.querySelectorAll(".nav-mobile a");
-navLinks === null || navLinks === void 0 ? void 0 : navLinks.forEach((link) => {
-    link.addEventListener("click", () => {
-        if (checkbox) {
-            checkbox.checked = false;
-        }
-    });
-});
-
 const Header = () => {
-  return (
-    <div id="header">
+const checkboxRef = useRef(null);
+const navLinksRef = useRef(null);
 
-      <div className="header-container">
+useEffect(() => {
+const navLinks = navLinksRef.current.querySelectorAll(".nav-mobile a");
+navLinks.forEach((link) => {
+link.addEventListener("click", () => {
+if (checkboxRef.current) {
+checkboxRef.current.checked = false;
+}
+});
+});
+}, []);
 
-        <div className="logo-menu">
+return (
+<div id="header">
 
-          <div className="logo">
+  <div className="header-container">
 
-            <a href="#">GPT-4</a>
+    <div className="logo-menu">
 
-          </div>
+      <div className="logo">
 
-          <div className="menu">
+        <a href="#">GPT-4</a>
 
-            <nav className="nav-desktop">
+      </div>
 
-              <a href="#home" className="menu-item active">Home</a>
+      <div className="menu">
 
-              <a href="#whatisgpt" className="menu-item">What is GPT?</a>
+        <nav className="nav-desktop">
 
-              <a href="#features" className="menu-item">Features</a>
+          <a href="#home" className="menu-item active">Home</a>
 
-              <a href="#blog" className="menu-item">Blog</a>
+          <a href="#whatisgpt" className="menu-item">What is GPT?</a>
 
-            </nav>
+          <a href="#features" className="menu-item">Features</a>
 
-          </div>
+          <a href="#blog" className="menu-item">Blog</a>
 
-        </div>
-
-        <div className="sign">
-
-          <a href="#" className="signin">Sign in</a>
-
-          <a href="#" className="signup">Sign up</a>
-
-        </div>
-
-        <input type="checkbox" id="hamburguer-menu"/>
-
-        <label for="hamburguer-menu">
-
-          <div class="mobile-menu">
-
-            <span class="hamburguer1"></span>
-
-            <span class="hamburguer2"></span>
-
-            <span class="hamburguer3"></span>
-
-          </div>
-
-        </label>
-
-        <div class="overlay">
-
-          <nav class="nav-mobile">
-
-            <a href="#home" class="menu-item active">Home</a>
-
-            <a href="#whatisgpt" class="menu-item">What is GPT?</a>
-
-            <a href="#features" class="menu-item">Features</a>
-
-            <a href="#blog" class="menu-item">Blog</a>
-
-          </nav>
-
-        </div>
+        </nav>
 
       </div>
 
     </div>
-  )
-}
+
+    <div className="sign">
+
+      <a href="#" className="signin">Sign in</a>
+
+      <a href="#" className="signup">Sign up</a>
+
+    </div>
+
+    <input type="checkbox" id="hamburguer-menu" ref={checkboxRef} />
+
+    <label htmlFor="hamburguer-menu">
+
+    <div className="mobile-menu">
+
+      <span className="hamburguer1"></span>
+
+      <span className="hamburguer2"></span>
+
+      <span className="hamburguer3"></span>
+
+    </div>
+
+    </label>
+
+    <div className="overlay" ref={navLinksRef}>
+
+      <nav className="nav-mobile">
+
+        <a href="#home" className="menu-item active">Home</a>
+
+        <a href="#whatisgpt" className="menu-item">What is GPT?</a>
+
+        <a href="#features" className="menu-item">Features</a>
+
+        <a href="#blog" className="menu-item">Blog</a>
+
+      </nav>
+
+    </div>
+
+  </div>
+
+</div>
+
+);
+};
 
 export default Header;
