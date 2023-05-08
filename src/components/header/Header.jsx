@@ -1,15 +1,14 @@
 import './header.css';
 
 const checkbox = document.querySelector("#hamburguer-menu");
-const navMenu = document.querySelector(".nav-mobile");
 const navLinks = document.querySelectorAll(".nav-mobile a");
-{ navLinks === null || navLinks === void 0 ? void 0 : navLinks.forEach((link) => {
+navLinks === null || navLinks === void 0 ? void 0 : navLinks.forEach((link) => {
     link.addEventListener("click", () => {
         if (checkbox) {
             checkbox.checked = false;
         }
     });
-}); }
+});
 
 const Header = () => {
   return (
