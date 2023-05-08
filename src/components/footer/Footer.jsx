@@ -11,9 +11,7 @@ const Footer = () => {
           <div className="logo-footer">
 
             <a href="#">GPT-4</a>
-
-            <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
-
+            
           </div>
 
           <div className="menu-footer">

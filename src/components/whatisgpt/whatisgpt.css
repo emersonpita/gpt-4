@@ -154,6 +154,14 @@
         width: 100%;
     }
 
+    .description1 {
+        padding-top: 10px;
+    }
+
+    .sub-container p {
+        padding-top: 10px;
+    }
+
     .container2 {
         padding: 0;
         margin: 0 !important;
