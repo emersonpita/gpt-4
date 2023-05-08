@@ -14,7 +14,7 @@
 }
 
 .blog-container h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     padding-right: 800px;
     background-image: linear-gradient(45deg, rgb(174, 103, 250), rgb(244, 152, 103));
@@ -89,7 +89,7 @@
 }
 
 .finaltitle h3 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     padding: 0 350px;
     background-image: linear-gradient(45deg, rgb(174, 103, 250), rgb(244, 152, 103));
@@ -127,6 +127,10 @@
 
     .blog-container h2 {
         padding: 0;
+    }
+
+    .finaltitle {
+        margin: 100px 0;
     }
 
     .finaltitle h3 {

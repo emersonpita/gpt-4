@@ -120,6 +120,12 @@
     color: transparent;
 }
 
+.texts-container2 a {
+    text-decoration: none;
+    color: #FF8A71;
+    height: fit-content;
+}
+
 .texts-container2 p {
     color: #81AFDD;
     font-weight: 300;
