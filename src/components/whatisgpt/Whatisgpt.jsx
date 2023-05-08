@@ -32,7 +32,7 @@ const Whatisgpt = () => {
 
           </div>
 
-          <div className="container2">
+          <div className="container2-whatisgpt">
 
             <div className="left2">
 
