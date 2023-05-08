@@ -200,10 +200,23 @@
         width: 100%;
         justify-content: center;
         align-items: center;
+        padding-top: 30px;
     }
 
     .img-home img {
         width: 100%;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .texts-home form input {
+        width: 60%;
+    }
+
+    .texts-home form button {
+        width: 40%;
     }
 
 }
